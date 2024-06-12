@@ -329,9 +329,6 @@ LD=ld \
     --enable-plugin \
     --enable-shared \
     --enable-threads=posix \
-%ifarch x86_64
-    --with-arch=x86-64-v3 \
-%endif
     --with-system-zlib
 
 popd
